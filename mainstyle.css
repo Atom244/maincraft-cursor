@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #555655;
+}
+
+#btn {
+  border: none;
+  width: 64px;
+  height: 64px;
+  font-size: 20px;
+  padding: 10px 20px;
+  background-image: url(https://avatars.akamai.steamstatic.com/5daabd720b3ab504d8845e1c248b852bc4155b9a_medium.jpg);
+}
+
+* {
+  cursor: url(sword.png), auto;
+}
+
+button {
+  cursor: url(pickaxe.png), auto;
+}
